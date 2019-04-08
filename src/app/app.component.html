@@ -1,3 +1,19 @@
-<h3>I am in the App Component</h3>
-<hr />
-<app-servers></app-servers>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h3>You are in the App Component</h3>
+      <hr />
+      <button class="btn btn-primary" (click)="onTogglebutton()">
+        Display Details
+      </button>
+      <p *ngIf="displaySecret">Secret Password</p>
+      <div
+        *ngFor="let logItem of log; let i = index"
+        [ngStyle]="{ backgroundColor: i >= 5 ? 'red' : 'transparent' }"
+        [ngClass]="{ 'white-text': i >= 5 }"
+      >
+        {{ logItem }}
+      </div>
+    </div>
+  </div>
+</div>

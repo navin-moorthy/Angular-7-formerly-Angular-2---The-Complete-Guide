@@ -1,0 +1,6 @@
+--2019-04-08 16:19:10--  https://a2.udemycdn.com/2019-02-13_09-42-25-5a8433a81b8ac110abf384d77db2a7fd/original.zip?nva=20190408204844
+Resolving a2.udemycdn.com (a2.udemycdn.com)... 8.255.130.250, 67.26.63.239, 8.255.133.122
+Connecting to a2.udemycdn.com (a2.udemycdn.com)|8.255.130.250|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2019-04-08 16:19:11 ERROR 403: Forbidden.
+

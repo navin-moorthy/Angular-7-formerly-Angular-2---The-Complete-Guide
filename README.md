@@ -17,4 +17,40 @@ Angular 7 (formerly Angular 2) - The Complete Guide Course from Maximilian Schwa
 ### The Basics
 
 - Learned about the Modules, Components and Decorators.
--
+- Learned about Components features - `template` and `styles` instead of "templateUrl and styleUrls"
+- Learned about creating a component using `ng generate component <component name>`.
+- String Interpolation = {{ }} to pass the value from typerscript to html.
+- Property Binding - `(event) = "typescript variables or function to perform"`
+- Learned directives `*ngIf="value; else anyvariable`, `ngStyle` and `ngClass`.
+- Learned Directives
+
+```html
+<button class="btn btn-primary" (click)="onTogglebutton()">
+  Display Details
+</button>
+<p *ngIf="displaySecret">Secret Password</p>
+<div
+  *ngFor="let logItem of log; let i = index"
+  [ngStyle]="{ backgroundColor: i >= 5 ? 'red' : 'transparent' }"
+  [ngClass]="{ 'white-text': i >= 5 }"
+>
+  {{ logItem }}
+</div>
+```
+
+```js
+export class AppComponent {
+  displaySecret = false;
+  log = [];
+  onTogglebutton() {
+    this.displaySecret = !this.displaySecret;
+    this.log.push(new Date());
+  }
+}
+```
+
+```css
+.white-text {
+  color: white;
+}
+```
