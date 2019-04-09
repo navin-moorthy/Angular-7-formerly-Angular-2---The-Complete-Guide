@@ -54,3 +54,12 @@ export class AppComponent {
   color: white;
 }
 ```
+
+## Section 3
+
+### Course Project - The Basics
+
+- `$ ng g c /recipes --spec false` - generate the component without spec test file
+- Generated Project Files.
+- Added the Navbar as header.
+-
