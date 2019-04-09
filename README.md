@@ -62,4 +62,28 @@ export class AppComponent {
 - `$ ng g c /recipes --spec false` - generate the component without spec test file
 - Generated Project Files.
 - Added the Navbar as header.
+- Created a Recipe Model.
+- Added the contents for Recipe list in HTML.
+- Used ngFor to list all the recipe from the recipe list.
+- Displayed the recipe list.
+- Displayed the recipe details.
+- Worked on shopping list component.
+- Created a Ingredient Model.
+- Created and outputted the shopping list.
+- Added shopping list edit section
+
+## Section 4
+
+### Debugging
+
+- Installed https://augury.rangle.io/ Augury for Debugging in Angular which makes it easier.
+
+## Section 5
+
+### Components and Data binding Deep Dive
+
+- Learned about components variables property variable using @Input(alias) and @Output(alias).
+- Learned about local references. #xxxxxxx to the HTMLElement.
+- Learned about @ViewChild("component") as two way binding using the HTMLElement local reference.
+- Learned about Component Lifecycle.
 -

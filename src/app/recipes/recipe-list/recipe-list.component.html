@@ -1,1 +1,39 @@
-<app-recipe-item></app-recipe-item>
+<div class="row">
+  <div class="col">
+    <button class="btn btn-success">New Recipe</button>
+  </div>
+</div>
+<hr />
+<div class="row">
+  <div class="col">
+    <a href="#" class="card flex-row flex-wrap" *ngFor="let recipe of recipes">
+      <div class="card-body px-2">
+        <h4 class="card-title">{{ recipe.name }}</h4>
+        <p class="card-text">{{ recipe.description }}</p>
+      </div>
+      <div class="card-header border-0 p-3">
+        <img
+          [src]="recipe.imagePath"
+          alt="{{ recipe.name }}"
+          class="img-fluid"
+          style="max-height: 5rem"
+        />
+      </div>
+    </a>
+    <a href="#" class="card flex-row flex-wrap" *ngFor="let recipe of recipes">
+      <div class="card-body px-2">
+        <h4 class="card-title">{{ recipe.name }}</h4>
+        <p class="card-text">{{ recipe.description }}</p>
+      </div>
+      <div class="card-header border-0 p-3">
+        <img
+          [src]="recipe.imagePath"
+          alt="{{ recipe.name }}"
+          class="img-fluid"
+          style="max-height: 5rem"
+        />
+      </div>
+    </a>
+    <app-recipe-item></app-recipe-item>
+  </div>
+</div>
