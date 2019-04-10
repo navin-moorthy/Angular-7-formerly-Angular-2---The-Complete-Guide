@@ -120,3 +120,19 @@ export class AppComponent {
 ## Section 10
 
 ### Course Project : Services and Dependency Injection
+
+- Reduced the project code recipe component using the Services.
+- Reduced the project code shopping list using the Services.
+
+## Section 11
+
+### Routers Deep Dive
+
+- Learned about the router Module
+
+## Section 12
+
+### Course Project : Routing
+
+- Removed the component Selector Routing with Angular Routing
+-
