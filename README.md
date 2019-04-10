@@ -110,3 +110,9 @@ export class AppComponent {
 ### Course Project
 
 - Built own Dropdown Directive.
+
+## Section 9
+
+### Using the services and Dependency Injector
+
+-
