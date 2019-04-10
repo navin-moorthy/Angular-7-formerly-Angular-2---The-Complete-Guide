@@ -86,4 +86,27 @@ export class AppComponent {
 - Learned about local references. #xxxxxxx to the HTMLElement.
 - Learned about @ViewChild("component") as two way binding using the HTMLElement local reference.
 - Learned about Component Lifecycle.
--
+
+## Section 6
+
+### Course Project : Components and Data Binding
+
+- Added navingation to recipe and shopping list using Output, ngIf and EventEmitters.
+- Passing Recipe Data from Recipe list to recipe detail using Property Binding.
+- Using both the above method to bind them to recipe component.
+- Added the ingredients using the form with the about binding methods.
+
+## Section 7
+
+### Directives Deep Dive
+
+- Structural Directives *ngIf and *ngFor Recap
+- Attribute Directives ngStyle and ngClass Recap
+- Learned about creating a new directive using basic @directive and rendered.
+- Learned about @HostListener for Host Events and @HostBinding for bind Host Properties.
+
+## Section 8
+
+### Course Project
+
+- Built own Dropdown Directive.
