@@ -113,6 +113,10 @@ export class AppComponent {
 
 ## Section 9
 
-### Using the services and Dependency Injector
+### Using the services and Dependency Injection
 
--
+- Assignment5 to test the knowledge learned in this section.
+
+## Section 10
+
+### Course Project : Services and Dependency Injection
