@@ -152,4 +152,4 @@ export class AppComponent {
 
 ### Handling Forms in Angular Apps
 
--
+- Learned about Template Driven and Reactive Form Approach.
