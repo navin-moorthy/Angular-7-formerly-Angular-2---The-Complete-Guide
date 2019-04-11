@@ -135,4 +135,21 @@ export class AppComponent {
 ### Course Project : Routing
 
 - Removed the component Selector Routing with Angular Routing
+
+## Section 13
+
+### Understanding Observable
+
+- Learned About Rxjs Observable.
+
+## Section 14
+
+### Course Project: Implementing Observable
+
+- Removed the event emitters and added observables to the project.
+
+## Section 15
+
+### Handling Forms in Angular Apps
+
 -
