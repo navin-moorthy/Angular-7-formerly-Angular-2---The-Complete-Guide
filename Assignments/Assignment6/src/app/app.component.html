@@ -1,7 +1,64 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
-      <!-- Add a Form with the following Inputs (and Validators)
+      <form (submit)="onSubmit(form)" #form="ngForm">
+        <div class="form-group">
+          <label>Email</label>
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            ngModel
+            required
+            email
+            #email="ngModel"
+          />
+          <small
+            class="form-text text-muted"
+            *ngIf="!email.valid && email.touched"
+            >Invalid Email Address</small
+          >
+        </div>
+
+        <div class="form-group">
+          <label>Subscriptions</label>
+          <select
+            class="form-control"
+            name="subscription"
+            [ngModel]="selecetedSubcription"
+          >
+            <option
+              *ngFor="let subscription of subscriptions"
+              [value]="subscription"
+              >{{ subscription }}</option
+            >
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input
+            type="password"
+            name="password"
+            ngModel
+            class="form-control"
+            required
+            #password="ngModel"
+          />
+          <small
+            class="form-text text-muted"
+            *ngIf="!password.valid && password.touched"
+            >Invalid Password</small
+          >
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+        <small class="form-text text-muted" *ngIf="!form.valid && form.touched"
+          >Invalid Form</small
+        >
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Add a Form with the following Inputs (and Validators)
            1) Mail address (should not be empty and should be an email address)
            2) A Dropdown which allows the user to select from three different Subscriptions ("Basic", "Advanced", "Pro")
               Set "Advanced" as Default
@@ -13,6 +70,3 @@
            Upon submitting the form, you should simply print the Value of the Form to the Console.
            Optionally, display it in your template.
       -->
-    </div>
-  </div>
-</div>
