@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <form [formGroup]="projectForm" (ngSubmit)="onSaveProject()">
+        <div class="form-group">
+          <label for="projectName">Project Name</label>
+          <input
+            type="text"
+            class="form-control"
+            formControlName="projectName"
+            id="projectName"
+          />
+        </div>
+        <div class="form-group">
+          <label for="projectEmail">Project Email</label>
+          <input
+            type="email"
+            formControlName="projectEmail"
+            class="form-control"
+            id="projectEmail"
+          />
+        </div>
+        <div class="form-group">
+          <label for="projectStatus">Project Status</label>
+          <select
+            id="projectStatus"
+            formControlName="projectStatus"
+            class="form-control"
+          >
+            <option value="stable">Stable</option>
+            <option value="critical">Critical</option>
+            <option value="finished">Finished</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Reactive Forms -->
