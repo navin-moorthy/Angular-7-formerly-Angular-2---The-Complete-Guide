@@ -153,3 +153,10 @@ export class AppComponent {
 ### Handling Forms in Angular Apps
 
 - Learned about Template Driven and Reactive Form Approach.
+
+## Section 16
+
+### Course Project: Implementing TD Forms
+
+- Added the form to shopping list component and edit the same form.
+- Added the form to recipe list component and edit the same form.
