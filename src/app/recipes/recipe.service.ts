@@ -8,7 +8,7 @@ import { ShoppingListService } from "../shopping-list/shopping-list.service";
 export class RecipeService {
   constructor(private slService: ShoppingListService) {}
 
-  private recipes: Recipe[] = [
+  private recipes: any = [
     new Recipe(
       "Tasty Schnitzel",
       "A super-tasty Schnitzel - just awesome!",
