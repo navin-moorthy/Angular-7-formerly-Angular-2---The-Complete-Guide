@@ -160,3 +160,8 @@ export class AppComponent {
 
 - Added the form to shopping list component and edit the same form.
 - Added the form to recipe list component and edit the same form.
+- Added functionalities to all the buttos in the edit pages.
+
+## Section 17
+
+### Using Pipes to transform the Output
