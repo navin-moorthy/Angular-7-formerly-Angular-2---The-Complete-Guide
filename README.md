@@ -165,3 +165,5 @@ export class AppComponent {
 ## Section 17
 
 ### Using Pipes to transform the Output
+
+-
