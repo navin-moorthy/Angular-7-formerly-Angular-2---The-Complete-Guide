@@ -179,4 +179,14 @@ export class AppComponent {
 ### Course Project : Implementing HTTP
 
 - Implemented Fetch and Save Data from FireBase Real Database.
--
+
+## Section 20
+
+### Authentication and Route Protection in Angular
+
+- Added Login and SignUp feature using Firebase Authentication.
+- Implemented AuthGuard to only Authenticated Users.
+
+## Section 21
+
+###
