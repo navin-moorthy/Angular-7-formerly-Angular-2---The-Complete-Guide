@@ -166,4 +166,10 @@ export class AppComponent {
 
 ### Using Pipes to transform the Output
 
+- Learned to add and create pipes using string Interpolation to manipulate the output.
+
+## Section 18
+
+### Making HTTP Requests
+
 -
