@@ -172,4 +172,11 @@ export class AppComponent {
 
 ### Making HTTP Requests
 
+- Learned about HTTP Requests and Async Map
+
+## Section 19
+
+### Course Project : Implementing HTTP
+
+- Implemented Fetch and Save Data from FireBase Real Database.
 -
