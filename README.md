@@ -189,4 +189,6 @@ export class AppComponent {
 
 ## Section 21
 
-###
+### App optimization
+
+-
