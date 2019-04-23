@@ -194,4 +194,10 @@ export class AppComponent {
 - Implemented the features Module.
 - Learned about LazyLoading. canLoad: [AuthGuard] to protect Lazy Loaded Routes
 - Created a Core Module.
+- Learned about In Time Compilation and Ahead of Time Compilation.
+
+## Section 22
+
+### App Deployment
+
 -
