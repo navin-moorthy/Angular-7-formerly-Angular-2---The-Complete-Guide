@@ -192,4 +192,6 @@ export class AppComponent {
 ### App optimization
 
 - Implemented the features Module.
+- Learned about LazyLoading. canLoad: [AuthGuard] to protect Lazy Loaded Routes
+- Created a Core Module.
 -
