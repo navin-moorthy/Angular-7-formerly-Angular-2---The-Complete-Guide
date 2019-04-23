@@ -200,4 +200,16 @@ export class AppComponent {
 
 ### App Deployment
 
+- Deployed the app in Amazon S3
+
+## Section 23
+
+### HTTP Client
+
+- Learned about the HTTP Interceptor and the new HTTP Client feature.
+
+## Section 24
+
+### Working with NgRx
+
 -
