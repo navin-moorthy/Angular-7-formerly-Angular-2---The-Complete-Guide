@@ -191,4 +191,5 @@ export class AppComponent {
 
 ### App optimization
 
+- Implemented the features Module.
 -
