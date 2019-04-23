@@ -4,21 +4,21 @@ import { NgForm } from '@angular/forms';
 import { AuthService } from '../auth.service';
 
 @Component({
-  selector: 'app-signup',
-  templateUrl: './signup.component.html',
-  styleUrls: ['./signup.component.css']
+  selector: 'app-signin',
+  templateUrl: './signin.component.html',
+  styleUrls: ['./signin.component.css']
 })
-export class SignupComponent implements OnInit {
+export class SigninComponent implements OnInit {
 
   constructor(private authService: AuthService) { }
 
   ngOnInit() {
   }
 
-  onSignup(form: NgForm) {
+  onSignin(form: NgForm) {
     const email = form.value.email;
     const password = form.value.password;
-    this.authService.signupUser(email, password);
+    this.authService.signinUser(email, password);
   }
 
 }

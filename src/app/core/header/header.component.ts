@@ -1,22 +1,25 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
+// import { HttpEvent, HttpEventType } from '@angular/common/http';
 
-import { DataStorageService } from "../../shared/data-storage.service";
-import { AuthService } from "../../auth/auth.service";
+import { DataStorageService } from '../../shared/data-storage.service';
+import { AuthService } from '../../auth/auth.service';
 
 @Component({
-  selector: "app-header",
-  templateUrl: "./header.component.html"
+  selector: 'app-header',
+  templateUrl: './header.component.html'
 })
 export class HeaderComponent {
-  constructor(
-    private dataStorageService: DataStorageService,
-    public authService: AuthService
-  ) {}
+  constructor(private dataStorageService: DataStorageService,
+              private authService: AuthService) {
+  }
 
   onSaveData() {
-    this.dataStorageService.storeRecipes().subscribe(response => {
-      console.log(response);
-    });
+    this.dataStorageService.storeRecipes()
+      .subscribe(
+        (response) => {
+          console.log(response);
+        }
+      );
   }
 
   onFetchData() {
@@ -25,9 +28,5 @@ export class HeaderComponent {
 
   onLogout() {
     this.authService.logout();
-  }
-
-  isAuthenticated() {
-    return this.authService.isAuthenticated();
   }
 }

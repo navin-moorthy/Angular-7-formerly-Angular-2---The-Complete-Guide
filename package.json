@@ -20,12 +20,15 @@
     "@angular/platform-browser": "^6.0.0",
     "@angular/platform-browser-dynamic": "^6.0.0",
     "@angular/router": "^6.0.0",
-    "@ngrx/store": "^7.4.0",
-    "bootstrap": "3.4.1",
+    "@ngrx/effects": "^5.2.0",
+    "@ngrx/router-store": "^5.2.0",
+    "@ngrx/store": "^5.2.0",
+    "@ngrx/store-devtools": "^5.2.0",
+    "bootstrap": "3.3.7",
     "core-js": "^2.5.4",
-    "firebase": "^5.10.0",
+    "firebase": "4.12.1",
     "rxjs": "6.3.3",
-    "rxjs-compat": "^6.1.0",
+    "rxjs-compat": "6.1.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
@@ -35,7 +38,7 @@
     "@angular/language-service": "^6.0.0",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^8.9.5",
+    "@types/node": "~8.9.4",
     "codelyzer": "~4.2.1",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
@@ -47,6 +50,6 @@
     "protractor": "^6.0.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "^3.1.1"
+    "typescript": "~3.1.1"
   }
 }
