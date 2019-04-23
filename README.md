@@ -212,4 +212,4 @@ export class AppComponent {
 
 ### Working with NgRx
 
--
+- Worked on shopping list in changing the state using NgRx Store.

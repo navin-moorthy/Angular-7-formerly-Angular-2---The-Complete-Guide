@@ -12,6 +12,7 @@ export function shoppingListReducer(
 ) {
   switch (action.type) {
     case ShoppingListActions.ADD_INGREDIENT:
+      console.log(action.payload);
       return {
         ...state,
         ingredients: [...state.ingredients, action.payload]

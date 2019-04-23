@@ -1,11 +1,11 @@
-import { Action } from '@ngrx/store';
+import { Action } from "@ngrx/store";
 
-import { Ingredient } from '../../shared/ingredient.model';
+import { Ingredient } from "../../shared/ingredient.model";
 
-export const ADD_INGREDIENT = 'ADD_INGREDIENT';
-export const ADD_INGREDIENTS = 'ADD_INGREDIENTS';
-export const UPDATE_INGREDIENT = 'UPDATE_INGREDIENT';
-export const DELETE_INGREDIENT = 'DELETE_INGREDIENT';
+export const ADD_INGREDIENT = "ADD_INGREDIENT";
+export const ADD_INGREDIENTS = "ADD_INGREDIENTS";
+export const UPDATE_INGREDIENT = "UPDATE_INGREDIENT";
+export const DELETE_INGREDIENT = "DELETE_INGREDIENT";
 
 export class AddIngredient implements Action {
   readonly type = ADD_INGREDIENT;
@@ -22,7 +22,7 @@ export class AddIngredients implements Action {
 export class UpdateIngredient implements Action {
   readonly type = UPDATE_INGREDIENT;
 
-  constructor(public payload: {index: number, ingredient: Ingredient}) {}
+  constructor(public payload: { index: number; ingredient: Ingredient }) {}
 }
 
 export class DeleteIngredient implements Action {
@@ -32,7 +32,7 @@ export class DeleteIngredient implements Action {
 }
 
 export type ShoppingListActions =
-  AddIngredient |
-  AddIngredients |
-  UpdateIngredient |
-  DeleteIngredient;
+  | AddIngredient
+  | AddIngredients
+  | UpdateIngredient
+  | DeleteIngredient;
