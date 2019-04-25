@@ -214,3 +214,16 @@ export class AppComponent {
 
 - Worked on shopping list in changing the state using NgRx Store.
 - Worked on auth feature in changing the state using NgRx Store.
+- Worked on Recipe Feature using NgRx Store.
+
+## Section 25
+
+### Angular Universal
+
+- Learned to load the Angular Application prerendered by the server using Angular Cli - Universal Rendering.
+
+## Section 26
+
+### Angular Animation
+
+-
