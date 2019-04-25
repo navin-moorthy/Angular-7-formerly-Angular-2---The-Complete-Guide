@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "webpack:server": "webpack --config webpack.server.config.js --progress --colors"
   },
   "private": true,
   "dependencies": {
@@ -28,6 +29,7 @@
     "@nguniversal/module-map-ngfactory-loader": "^7.1.1",
     "bootstrap": "3.4.1",
     "core-js": "^2.5.4",
+    "express": "^4.16.4",
     "firebase": "4.12.1",
     "rxjs": "6.3.3",
     "ts-loader": "^5.4.3",
@@ -52,6 +54,7 @@
     "protractor": "^6.0.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "~3.1.1"
+    "typescript": "~3.1.1",
+    "webpack-cli": "^3.3.1"
   }
 }
