@@ -238,4 +238,16 @@ export class AppComponent {
 
 ### Angular Unit Testing
 
--
+- Learned about basics of Unit Testing.
+
+## Section 29
+
+### Angular Custom Project
+
+- Learned to build a custom Angular Project from scratch ( not generated using Angular CLI )
+
+## Section 30
+
+### Typescript Basics
+
+- Intro on Typescript and it's diff btw Javascript
