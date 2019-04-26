@@ -226,4 +226,16 @@ export class AppComponent {
 
 ### Angular Animation
 
+- Learned about angular Animation using @angular/animation
+
+## Section 27
+
+### Service Worker
+
+- Learned about adding a service worker to PWA that can work offline even without the internet connection.
+
+## Section 28
+
+### Angular Unit Testing
+
 -
